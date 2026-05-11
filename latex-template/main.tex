@@ -1,0 +1,68 @@
+% 班级论文协作通用模板（中文）
+% 编译: xelatex main.tex
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{geometry}
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+
+\usepackage{ctex}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue
+}
+
+\title{论文题目}
+\author{姓名1 \and 姓名2 \and 姓名3}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+在此撰写摘要（200--300 字为宜）。概括研究背景、方法、主要结果与结论。
+\end{abstract}
+
+\textbf{关键词：}关键词1；关键词2；关键词3
+
+\section{引言}
+引言正文。
+
+\section{相关工作}
+相关工作正文。引用示例：据文献\cite{example2024}所述……
+
+\section{方法}
+方法正文。公式示例：
+\begin{equation}
+  E = mc^2.
+\end{equation}
+
+\section{实验与结果}
+实验设置、指标、结果表格与分析。
+
+\begin{table}[htbp]
+  \centering
+  \caption{示例表格}
+  \begin{tabular}{lcc}
+    \toprule
+    方法 & 指标A & 指标B \\
+    \midrule
+    基线 & 0.80 & 0.75 \\
+    本文 & \textbf{0.92} & \textbf{0.88} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{结论}
+总结与展望。
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
+
+\end{document}
