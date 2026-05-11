@@ -1,9 +1,9 @@
-# 班级 GitHub 论文协作库与代码邮箱计划
+# 班级 GitHub 论文协作库与代码优享计划
 
 本仓库面向班级协作，包含两项内容：
 
 1. **论文协作**：LaTeX 中文论文模板、查重相关说明与本地辅助工具。  
-2. **代码邮箱计划**：分组认领任务，**每个小组**向全班提交 **1 篇** 学习过程中掌握的编程技巧（Markdown，见 `code-email-plan/`）。
+2. **代码优享计划**：分组认领任务，**每个小组**向全班提交 **1 篇** 学习过程中掌握的编程技巧（Markdown，见 [`code-premium-plan/`](code-premium-plan/)）。
 
 ## 1. 论文协作
 
@@ -40,15 +40,15 @@ git push -u origin main
 1. 在仓库 **Settings → Collaborators** 中添加课程同学为协作者（或使用 Organization **Team**）。  
 2. 可为 `main` 开启 **Branch protection**（通过 Pull Request 合并），便于论文与技巧稿版本留痕。
 
-## 2. 代码邮箱计划
+## 2. 代码优享计划
 
 | 内容 | 路径 |
 |------|------|
-| 任务说明与规则 | [`code-email-plan/README.md`](code-email-plan/README.md) |
-| 小组认领表 | [`code-email-plan/GROUPS.md`](code-email-plan/GROUPS.md) |
-| 各组技巧提交目录 | [`code-email-plan/tips/`](code-email-plan/tips/) |
+| 任务说明与规则 | [`code-premium-plan/README.md`](code-premium-plan/README.md) |
+| 小组认领表（10 组） | [`code-premium-plan/GROUPS.md`](code-premium-plan/GROUPS.md) |
+| 各组技巧提交目录 | [`code-premium-plan/tips/`](code-premium-plan/tips/) |
 
-**任务要求**：每个小组贡献 **1 条** 在课程或项目中**真实掌握**的编程技巧，按 [`tips/_TEMPLATE.md`](code-email-plan/tips/_TEMPLATE.md) 写成 Markdown，放入 `code-email-plan/tips/`，通过 Pull Request 合并，或由仓库管理员按课程约定代为合并。
+**任务要求**：每个小组贡献 **1 条** 在课程或项目中**真实掌握**的编程技巧，按 [`tips/_TEMPLATE.md`](code-premium-plan/tips/_TEMPLATE.md) 写成 Markdown，放入 `code-premium-plan/tips/`。仓库已为 01–10 组各预置一篇示例稿，各组认领后请**改写为本人真实学习所得**并补充组名与作者，再通过 Pull Request 合并，或由仓库管理员按课程约定代为合并。
 
 ---
 
