@@ -1,10 +1,10 @@
 # 代码邮箱计划 — 小组认领表
 
-**截止时间**：（班长填写，例如：2026-05-25 23:59）
+**截止时间**：（请填写，例如：2026-06-01 23:59；若课程未统一要求可写「无」）
 
 ## 认领说明
 
-1. 每组在下方表格中**认领一行**，填写**组名**、**组长 GitHub 账号或姓名**、**计划撰写的技巧主题**（可后改，但需同步更新）。
+1. 每组在下方表格中**认领一行**，填写**组名**、**组长 GitHub 账号或姓名**、**计划撰写的技巧主题**（可后改，但请同步更新本表）。  
 2. 合并 PR 后，将 **PR 链接** 或 **`tips/` 下文件名** 填在「提交物」列。
 
 ## 认领表（共 4 组）
@@ -16,4 +16,4 @@
 | 03 | （待认领） | | | |
 | 04 | （待认领） | | | |
 
-> 格式说明：技巧稿文件建议命名为 `tips/group01-主题简述.md` … `group04-...`。Markdown 模板见 [`tips/_TEMPLATE.md`](tips/_TEMPLATE.md)。示例稿 [`tips/group00-EXAMPLE-delete-after-use.md`](tips/group00-EXAMPLE-delete-after-use.md) 发布前可删除。
+> 技巧稿建议命名为 `tips/group01-主题简述.md` … `group04-...`。模板见 [`tips/_TEMPLATE.md`](tips/_TEMPLATE.md)。示例稿 [`tips/group00-EXAMPLE-delete-after-use.md`](tips/group00-EXAMPLE-delete-after-use.md) 可在各组提交后删除。
