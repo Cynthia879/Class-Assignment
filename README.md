@@ -9,22 +9,32 @@
 | LaTeX 论文模板（中文） | [`latex-template/`](latex-template/) |
 | 查重说明与辅助脚本 | [`tools/plagiarism/`](tools/plagiarism/) |
 
-### 发布到 GitHub 的步骤（班长或仓库管理员）
+### 班级仓库地址
 
-1. 在 GitHub 新建 **Organization** 或 **个人仓库**，名称建议：`ClassName-Paper-Collab`（按班级实际命名）。
-2. 本地初始化并推送（在仓库根目录执行）：
+- **GitHub**：https://github.com/Cynthia879/Class-Assignment
+
+### 推送到本仓库（本地已有内容时）
+
+在仓库根目录 `d:\biyerenwu` 执行（若尚未添加远程）：
 
 ```bash
-git init
-git add .
-git commit -m "Initial: LaTeX template, plagiarism tools, code email plan"
+git remote add origin https://github.com/Cynthia879/Class-Assignment.git
 git branch -M main
-git remote add origin https://github.com/<组织或用户名>/<仓库名>.git
 git push -u origin main
 ```
 
-3. 在仓库 **Settings → Collaborators** 中添加全班同学为协作者，或全班加入同一 Organization 后设为 **Team** 访问。
-4. 建议开启 **Branch protection**：`main` 分支需 Pull Request 合并，便于论文版本留痕。
+若已存在名为 `origin` 的远程，可改为：
+
+```bash
+git remote set-url origin https://github.com/Cynthia879/Class-Assignment.git
+git branch -M main
+git push -u origin main
+```
+
+### 协作设置（班长）
+
+1. 在仓库 **Settings → Collaborators** 中添加全班同学为协作者（或 Organization **Team**）。
+2. 建议为 `main` 开启 **Branch protection**（需 Pull Request 合并），便于论文与技巧稿留痕。
 
 ## 2. 代码邮箱计划
 
